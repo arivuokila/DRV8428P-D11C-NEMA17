@@ -1412,7 +1412,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061e96a34)
     (property "Reference" "U1" (id 0) (at 58.42 101.3206 0))
-    (property "Value" "MotorDriver_TI_DRV8428EPPWPR" (id 1) (at 58.42 103.632 0))
+    (property "Value" "MotorDriver_TI_DRV8428PPWPR" (id 1) (at 58.42 103.632 0))
     (property "Footprint" "fab:HTSSOP-16" (id 2) (at 58.42 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1841,7 +1841,7 @@
   (symbol (lib_id "fab:Power_GND") (at 54.61 33.02 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 426ed018-908d-4928-9655-74918ceb5cf7)
-    (property "Reference" "#PWR?" (id 0) (at 54.61 26.67 0)
+    (property "Reference" "#PWR0107" (id 0) (at 54.61 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Power_GND" (id 1) (at 54.131 33.655 90)
@@ -2048,6 +2048,9 @@
     (path "/199c991d-f99e-44da-a25c-54fccb42f290"
       (reference "#PWR0106") (unit 1) (value "Power_GND") (footprint "")
     )
+    (path "/426ed018-908d-4928-9655-74918ceb5cf7"
+      (reference "#PWR0107") (unit 1) (value "Power_GND") (footprint "")
+    )
     (path "/070f5656-44a4-40d9-ad2b-45e70b1de6b0"
       (reference "#PWR0108") (unit 1) (value "Power_+5V") (footprint "")
     )
@@ -2080,9 +2083,6 @@
     )
     (path "/2a477c07-9dec-4aec-9252-6d62ca49a913"
       (reference "#PWR0118") (unit 1) (value "Power_+5V") (footprint "")
-    )
-    (path "/426ed018-908d-4928-9655-74918ceb5cf7"
-      (reference "#PWR?") (unit 1) (value "Power_GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061e9e5f9"
       (reference "C1") (unit 1) (value "1uF") (footprint "fab:C_1206")
@@ -2124,7 +2124,7 @@
       (reference "RV1") (unit 1) (value "R_POT_10K_Trimmer") (footprint "fab:Potentiometer_TT_Model-23_4.5x5.0x3.0mm")
     )
     (path "/00000000-0000-0000-0000-000061e96a34"
-      (reference "U1") (unit 1) (value "MotorDriver_TI_DRV8428EPPWPR") (footprint "fab:HTSSOP-16")
+      (reference "U1") (unit 1) (value "MotorDriver_TI_DRV8428PPWPR") (footprint "fab:HTSSOP-16")
     )
     (path "/00000000-0000-0000-0000-000061ea1d48"
       (reference "U2") (unit 1) (value "Regulator_Linear_LM3480-3.3V-100mA") (footprint "fab:SOT-23")
