@@ -36,7 +36,6 @@ void loop() {
    
 }
 
-
 void step(){
       digitalWrite(AIN1,HIGH);
       digitalWrite(AIN2,LOW);
@@ -63,7 +62,6 @@ void step(){
       delayMicroseconds(DELAYHIGH);
 }
 
-
 void stepBack(){
       digitalWrite(AIN1,HIGH);
       digitalWrite(AIN2,LOW);
@@ -87,11 +85,5 @@ void stepBack(){
       digitalWrite(AIN2,LOW);
       digitalWrite(BIN1,HIGH);
       digitalWrite(BIN2,LOW);
-      delayMicroseconds(DELAYHIGH);
-     
-
-      
-
-      
-
+      delayMicroseconds(DELAYHIGH);   
 }
